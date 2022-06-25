@@ -1,0 +1,138 @@
+.bg-card {
+  background: #f3f9fd;
+  padding: 10px 0;
+  text-align: left;
+}
+
+#card {
+  background: #fbfbfb;
+  border-color: blue;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 360px;
+  width: 520px;
+  margin: 6rem auto 8.1rem auto;
+}
+
+#card-content {
+  padding: 12px 44px;  
+  color: #000000;
+  margin-left: 17px;
+}
+
+#card-title {
+  font-family: "Raleway Thin", sans-serif;
+  letter-spacing: 4px;    
+  text-align: center;
+}
+
+.underline-title {
+  background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+  height: 2px;
+  margin: -0.7rem auto 0 auto;  
+  width: 91px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  padding-top: 10px;
+}
+
+#forgotPass {
+  color: #2dbd6e;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 3px;
+  text-align: right;
+}
+
+.form {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-border {
+  background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+  height: 1px;
+  width: 96%;
+}
+
+.form-content {
+  background: #fbfbfb;
+  border: none;
+  outline: none;
+  margin-left: 17px;
+  
+  font-size: 14pt;
+  text-align: left;
+}
+
+#submit-btn {  
+  background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);    
+  float: right;
+  margin: 0 auto;  
+  border: none;  
+  box-shadow: 0px 1px 8px #24c64f;
+  cursor: pointer;
+  color: white;
+  height: 42.3px;
+  width: 130px;
+  font-family: "Raleway SemiBold",sans-serif;  
+  transition: 0.25s; 
+  font-size: 14pt;
+}
+
+#submit-btn:hover {  
+  box-shadow: 0px 1px 18px #fff;
+  
+}
+
+#btn-simpan {
+  background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);  
+  margin: 0 auto;
+  border: none;  
+  box-shadow: 0px 1px 8px #24c64f;
+  cursor: pointer;
+  color: white;
+  height: 32.3px;
+  width: 50px;
+  font-family: "Raleway SemiBold",sans-serif;  
+  transition: 0.25s; 
+  font-size: 12pt;
+}
+#btn-batal {
+  background: -webkit-linear-gradient(right, #fbfbfb, #2dbd6e);  
+  margin: 0 auto;
+  margin-top: 40px;
+  border: none;  
+  box-shadow: 0px 1px 8px #24c64f;
+  cursor: pointer;
+  color: white;
+  height: 32.3px;
+  width: 50px;
+  font-family: "Raleway SemiBold",sans-serif;  
+  transition: 0.25s; 
+  font-size: 12pt;
+}
+
+.myselect{
+  width: 100%;
+  height: 10px;
+  background: #fff;
+  font-size: 14pt;
+}
+
+.lgn {  
+  background: url(../public/assets/img/lapangan.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+#lgn {
+  width: 100%;
+  height: 100%;
+  background: rgba(242, 0, 0, 0.5);
+}
